@@ -1,0 +1,75 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+#tablep {
+	width: 800px;
+	margin: 200px auto;
+}
+
+.wxtable-tbody-td {
+	text-align: center;
+}
+
+.wxtable-thead-td {
+	text-align: center;
+}
+
+.defaultChoose {
+	margin: 10px;
+}
+
+.defaultItem {
+	display: inline-block;
+	margin: 5px;
+	padding: 5px 8px;
+	font-style: normal;
+}
+
+.btn-area {
+	margin: 10px auto;
+}
+
+.btn-area>.btn {
+	margin: 0 5px;
+}
+
+.wxtable-tbody-changeBox {
+	padding: 20px;
+	z-index: 9;
+	position: absolute;
+	top: -220px;
+	left: 50%;
+	margin-left: -200px;
+	width: 400px;
+	height: 210px;
+	display: none;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.btn-area svg {
+	vertical-align: -3px;
+}
+
+.wxtable-tbody-changeBox>input {
+	width: 100%;
+}
+
+.wxtable-tbody-td {
+	position: relative;
+}
+
+.triangle_border_down {
+	width: 0;
+	height: 0;
+	border-width: 15px 15px 0;
+	border-style: solid;
+	border-color: #333 transparent transparent;
+	margin: 35px auto;
+	position: relative;
+}
